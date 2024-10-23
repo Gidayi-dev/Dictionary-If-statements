@@ -167,3 +167,103 @@ if x > 10:
     print("and also above 20!")
   else:
     print("but not above 20.")
+    
+#The while Loop
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+#The break Statement
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
+#The continue Statement
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+
+#The else Statement
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+#Python For Loops
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  
+#Looping Through a String
+for x in "banana":
+  print(x)
+
+#The break Statement
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    breakfruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+  
+#The continue Statement
+#With the continue statement we can stop the current iteration of the loop, and continue with the next
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+#Else in For Loop
+for x in range(6):
+      print(x)
+else:
+  print("Finally finished!")
+
+#Nested Loops
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+    
+#The pass Statement
+for x in [0, 1, 2]:
+  pass
+
+#Creating a Function
+def my_function():
+  print("Hello from a function")
+  
+#Calling a Function
+def my_function():
+      print("Hello from a function")
+
+my_function()
+
+#Arguments
+def my_function(fname):
+      print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
